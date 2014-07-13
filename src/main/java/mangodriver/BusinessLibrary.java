@@ -12,8 +12,6 @@ public class BusinessLibrary {
     WebDriver driver;
     public BusinessLibrary(WebDriver driver) {
         this.driver = driver;
-
-
     }
 
     public void login(String admin, String password) {
